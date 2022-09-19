@@ -1,0 +1,10 @@
+def turn_left(self, event):
+self.a = -3.5
+
+def turn_right(self, event):
+self.a = 3.5
+
+def pause(self, event):
+self.pauseSeconds += 1
+if self.pauseSeconds == 2:
+self.pauseSeconds = 0
